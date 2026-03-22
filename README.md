@@ -11,8 +11,40 @@
 ## 前置要求
 
 1. 飞书应用（App ID + App Secret）
-2. 安装依赖：`pip install feishu-enhance-mcp`
-3. 机器人已添加到目标群聊
+2. Python 环境
+3. 安装 feishu-enhance-mcp 包
+
+## 安装步骤
+
+### 步骤1: 安装 feishu-enhance-mcp
+
+打开终端/命令行，执行：
+
+```bash
+pip install feishu-enhance-mcp
+```
+
+验证安装成功：
+
+```bash
+pip show feishu-enhance-mcp
+```
+
+### 步骤2: 配置 MCP
+
+在 `~/.workbuddy/mcp.json` 中添加配置（详见 SKILL.md）
+
+### 步骤3: 获取飞书群 ID
+
+飞书群 → 右上角设置 → 群设置 → 查看群 ID
+
+### 步骤4: 测试发送
+
+告诉 WorkBuddy：发送测试消息到 XX 群
+
+### 步骤5: 创建定时任务
+
+告诉 WorkBuddy：创建一个每天早上8点推送新闻早报的任务
 
 ## 配置步骤
 
