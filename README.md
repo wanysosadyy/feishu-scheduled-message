@@ -73,6 +73,9 @@ WorkBuddy 会自动调用本 Skill 完成配置。
 - "每周一自动发送周报链接到群里"
 - "每小时推送一次AI新闻"
 
+## 许可证
+MIT License
+
 ## 相关文档
 
 - [SKILL.md](./SKILL.md) - 完整配置指南
